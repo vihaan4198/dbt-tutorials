@@ -12,7 +12,7 @@
 8. **website_activity** – Webpage visits, clicks, and behavior
 
 ---
-
+Create a new schema - raw_data and then create all the below table and then load sample data...!!
 ### **DDL Statements for PostgreSQL:**
 
 ```sql
