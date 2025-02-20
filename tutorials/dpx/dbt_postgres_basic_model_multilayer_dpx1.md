@@ -154,6 +154,9 @@ LEFT JOIN interactions i ON co.customer_id = i.customer_id;
    ```sh
    dbt run
    ```
+   ```sh
+   dbt run --select staging
+   ```
 2. **Test Data Integrity**  
    Add `tests/schema_tests.yml`:
    ```yaml
