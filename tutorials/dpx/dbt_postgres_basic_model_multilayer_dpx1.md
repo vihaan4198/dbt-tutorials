@@ -34,7 +34,7 @@ version: 2
 
 sources:
   - name: raw_data
-    schema: public
+    schema: raw_data
     description: "Raw customer 360 tables from Aurora DB"
     tables:
       - name: customers
