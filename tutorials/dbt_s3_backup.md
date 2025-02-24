@@ -13,3 +13,7 @@ Default output format [None]: json
 
 Run this command to copy all files and folders into S3 
 aws s3 cp . s3://dbt-training-airflow/DAG/vikash/ --recursive
+
+Resotre back to EC2 instance 
+
+aws s3 cp s3://dbt-training-airflow/DAG/vikash/ . --recursive
